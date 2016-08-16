@@ -8,7 +8,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.modal('countdown-modal', {
     path: 'countdown-modal',
-    withParams: [],
+    withParams: ['display_modal'],
     actions: {
     }
   });
